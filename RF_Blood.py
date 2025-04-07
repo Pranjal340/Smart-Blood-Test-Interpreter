@@ -76,7 +76,7 @@ def evaluate_model():
 train_accuracy, test_accuracy, hamming, f1_micro, f1_macro, report = evaluate_model()
 
 # Display Model Metrics
-st.subheader("📊 Model Performance")
+st.subheader("📊 Random Forest Model Performance")
 with st.spinner('Evaluating model...'):
     time.sleep(1)
 
